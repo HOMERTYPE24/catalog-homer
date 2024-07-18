@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>CATALOG HOMERTYPE</title>
+    </head>
+    <style type="text/css">
+        body{   
+            overflow: hidden;
+            background: url('bg.png');
+            background-size: 100% 100%;
+        }
+        #album{
+            width: 600px;
+            height: 500px;
+            margin: 5% auto;
+        }
+
+    </style>
+<body>
+    <div id="album">
+    <div style="background: url('1.jpg'); background-size: 100% 100%;"></div> 
+    <div style="background: url('2.jpg'); background-size: cover;"></div>
+    <div style="background: url('3.jpg'); background-size: cover;"></div>
+    <div style="background: url('4.jpg'); background-size: cover;"></div>
+    
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="turn.js"></script>
+    <script>$('#album').turn({gradients: true, acceleration: true});</script>
+</body>
+</html>
